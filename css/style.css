@@ -3,19 +3,26 @@ body{
     padding: 0;
 }
 
+h1 {color: purple; text-align: center; font-family: "Fascinate Inline"; text-decoration: underline;}
+h1:hover{color: rgba(221, 79, 221, 0.884);}
+
 .keys{
     display:flex;
     justify-content: center;  
 }
 
 .key{
-    border: 1px solid black;
+    border: 2px solid black;
     min-width: 3.5vw;
     min-height: 14vh;
+    text-align: center;
+    font-weight: 700;
 }
 
-.sheet{
+.key:hover{background-color: #ccc; color: purple; font-size: 1.5em;}
+.sheet{display: flex; justify-content: center;}
+.sheet img{
     max-width: 20vw;
     width: 20vw;
-    margin: 0 auto;
+    
 }
